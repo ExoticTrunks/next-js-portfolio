@@ -1,5 +1,9 @@
 import React from 'react'
 import Image from 'next/image'
+import PythonImg from '../public/assets/skills/python.png'
+import JSImg from '../public/assets/skills/js.png'
+import flutterImg from '../public/assets/skills/flutterrr.png'
+import FireBaseImg from '../public/assets/skills/firebase.png'
 
 const Skills = () => {
   return (
@@ -12,7 +16,7 @@ const Skills = () => {
             <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
             <div className='m-auto'>
-                <Image src='../public/assets/skills/python.png' width='64px' height='64px' alt='/' />
+                <Image src={PythonImg} width='64px' height='64px' alt='/' />
             </div>
             <div className='flex flex-col items-center justify-center'>
                 <h3>Python</h3>
@@ -23,7 +27,7 @@ const Skills = () => {
             <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
             <div className='m-auto'>
-                <Image src='../public/assets/skills/js.png' width='64px' height='64px' alt='/' />
+                <Image src={JSImg} width='64px' height='64px' alt='/' />
             </div>
             <div className='flex flex-col items-center justify-center'>
                 <h3>JavaScript</h3>
@@ -34,7 +38,7 @@ const Skills = () => {
             <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
             <div className='m-auto'>
-                <Image src='../public/assets/skills/flutterrr.png' width='64px' height='64px' alt='/' />
+                <Image src={flutterImg} width='64px' height='64px' alt='/' />
             </div>
             <div className='flex flex-col items-center justify-center'>
                 <h3>Flutter</h3>
@@ -45,7 +49,7 @@ const Skills = () => {
             <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
             <div className='m-auto'>
-                <Image src='../public/assets/skills/firebase.png' width='64px' height='64px' alt='/' />
+                <Image src={FireBaseImg} width='64px' height='64px' alt='/' />
             </div>
             <div className='flex flex-col items-center justify-center'>
                 <h3>Firebase</h3>
