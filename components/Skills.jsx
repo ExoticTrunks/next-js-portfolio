@@ -2,8 +2,9 @@ import React from 'react'
 import Image from 'next/image'
 import PythonImg from '../public/assets/skills/python.png'
 import JSImg from '../public/assets/skills/js.png'
-import flutterImg from '../public/assets/skills/flutterrr.png'
+import ReactImg from '../public/assets/skills/react.png'
 import FireBaseImg from '../public/assets/skills/firebase.png'
+import FigmaImg from '../public/assets/skills/figma.png'
 
 const Skills = () => {
   return (
@@ -38,10 +39,21 @@ const Skills = () => {
             <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
             <div className='grid grid-cols-2 gap-4 justify-center items-center'>
             <div className='m-auto'>
-                <Image src={flutterImg} width='64px' height='64px' alt='/' />
+                <Image src={ReactImg} width='64px' height='64px' alt='/' />
             </div>
             <div className='flex flex-col items-center justify-center'>
-                <h3>Flutter</h3>
+                <h3>React</h3>
+            </div>
+            </div>
+            </div>  
+
+            <div className='p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300'>
+            <div className='grid grid-cols-2 gap-4 justify-center items-center'>
+            <div className='m-auto'>
+                <Image src={FigmaImg} width='64px' height='64px' alt='/' />
+            </div>
+            <div className='flex flex-col items-center justify-center'>
+                <h3>Figma</h3>
             </div>
             </div>
             </div>  

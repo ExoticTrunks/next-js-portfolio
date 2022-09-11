@@ -27,7 +27,7 @@ const tracker = () => {
         <p>Personal Project</p>
         <h2 className='my-4'>Overview</h2>
         <p>
-        I built this app to demonstrate knowledge working in Vue JS and
+        I built this app in 2021 to demonstrate knowledge working in Vue JS and
         accessing API endpoints. This app was built using Vue JS and is
         hosted on Firebase. This application allows users to select and 
         view the total and new number of cases per selected country. I have also applied some basic Tailwind CSS for styling

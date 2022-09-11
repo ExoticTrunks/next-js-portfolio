@@ -21,8 +21,7 @@ const Contact = () => {
         </div>
         <div>
             <h2 className='py-2'>Rafael Palermo</h2>
-            <p>Full Stack Developer</p>
-            <p className='py-4'>Contact me and let's talk</p>
+            <p className='py-4'>Drop me a message!</p>
         </div>
         <div>
         <p className='uppercase pt-8' >Connect With Me</p>
@@ -72,32 +71,32 @@ const Contact = () => {
 
 <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4'>
     <div className='p-4'>
-    <form>
+    <form action='https://getform.io/f/aa5af930-2ea4-4e6e-beb4-7348f1e58668' method='POST' encType='multipart/form-data'>
         <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
         <div className='flex flex-col'>
         <label className='uppercase text-sm py-2'>Name</label>
-        <input type="text" className='border-2 rounded-lg pg-3 flex border-gray-300'/>
+        <input  name='name' type="text" className='border-2 rounded-lg pg-3 flex border-gray-300'/>
         </div>
 
         <div className='flex flex-col'>
         <label className='uppercase text-sm py-2'>Phone Number</label>
-        <input type="text" className='border-2 rounded-lg pg-3 flex border-gray-300'/>
+        <input  name='number' type="text" className='border-2 rounded-lg pg-3 flex border-gray-300'/>
         </div>
         </div>
 
         <div className='flex flex-col py-2'>
             <label className='uppercase text-sm py-2'>Email</label>
-            <input type="email" className='border-2 rounded-lg pg-3 flex border-gray-300'/>
+            <input  name='email' type="email" className='border-2 rounded-lg pg-3 flex border-gray-300'/>
         </div>
 
         <div className='flex flex-col py-2'>
             <label className='uppercase text-sm py-2'>Subject</label>
-            <input type="text" className='border-2 rounded-lg pg-3 flex border-gray-300'/>
+            <input name='subject'  type="text" className='border-2 rounded-lg pg-3 flex border-gray-300'/>
         </div>
 
         <div className='flex flex-col py-2'>
             <label className='uppercase text-sm py-2'>Message</label>
-            <textarea className='border-2 rounded-lg p-3 border-gray-300' rows='10'></textarea>
+            <textarea  name='message' className='border-2 rounded-lg p-3 border-gray-300' rows='10'></textarea>
         </div>
 
         <button className='w-full p-4 text-gray-100 mt-4'>Send Message</button>

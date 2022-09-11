@@ -9,7 +9,7 @@ const Main = () => {
     <div id='home' className='w-full h-screen text-center'>
         <div className='max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center'>
             <div>
-            <p className='uppercase text-sm tracking-widest text-gray-600'>ayo what am i doing here?</p>
+            <p className='uppercase text-sm tracking-widest text-gray-600'>welcome to my website!</p>
             <h1 className='py-4 text-gray-700'>Hi, I'm <span className='text-[#5651ef]'>Rafael</span></h1>
             <h1 className='py-4 text-gray-700'>
                 <TypeAnimation 
@@ -27,7 +27,10 @@ const Main = () => {
                     repeat={Infinity}
                 />
             </h1>
-            <p className='py-4 text-gray-600 max-w-[70%] m-auto'>awdabdw d ahwo ad adwhoawhd hadwo adohsadoihoh awh aodh</p>
+            <p className='py-4 text-gray-600 max-w-[70%] m-auto'>Logical and solution-oriented Computer Engineering student. Loves being
+challenged and being a team leader. Passionate and energetic about coding,
+problem solving, and incorporating different types of technological solutions into our daily life.
+</p>
             <div className='flex items-center justify-between max-w-[330px] m-auto py-4'>
 
             <a
