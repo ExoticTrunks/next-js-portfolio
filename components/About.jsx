@@ -11,7 +11,7 @@ const About = () => {
                 <p className='uppercase text-xl tracking-widest text-[#5651e5]'>About</p>
                 <h2 className='py-4'>Who I Am</h2>
                 <p className='py-2 text-gray-600'>//I create stuff with my hands and keyboard</p>
-                <p className='py-2 text-gray-600'>I am a final year student pursuing a diploma in <a href='https://www.tp.edu.sg/schools/eng/computer-engineering' target='_blank' className='underline decoration-[#5651e5]' >Computer Engineering</a> at Temasek Polytechnic and am currently doing a 1 year internship at the Government Technology Agency of Singapore (GovTech). 
+                <p className='py-2 text-gray-600'>I am a final year student pursuing a diploma in <a href='https://www.tp.edu.sg/schools/eng/computer-engineering' rel="noreferrer" target='_blank' className='underline decoration-[#5651e5]' >Computer Engineering</a> at Temasek Polytechnic and am currently doing a 1 year internship at the Government Technology Agency of Singapore (GovTech). 
                 3 Fields I'm interested in are Programming, Artificial Intelligence and Cyber Security.
                 </p>
                 <p className='py-2 text-gray-600'>When I'm not coding, I spend my free time travelling, hunting for good food and playing basketball with my friends.</p>
