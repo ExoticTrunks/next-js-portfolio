@@ -20,7 +20,7 @@ const Contact = () => {
             <img className='rounded-xl hover:scale-105 ease-in duration-300' src='https://images.unsplash.com/photo-1516387938699-a93567ec168e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80'></img>
         </div>
         <div>
-            <h2 className='py-2'>Rafael Palermo</h2>
+            <h2 className='py-2 mt-3'>Rafael Palermo</h2>
             <p className='py-4'>Drop me a message!</p>
         </div>
         <div>
